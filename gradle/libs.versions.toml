@@ -1,0 +1,18 @@
+[versions]
+agp = "8.5.1"
+appcompat = "1.7.0"
+dreamspaceAdsSdk = "3.0.1-admob-only"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+dreamspace-ads-sdk = { module = "com.github.dream-space:dreamspace-ads-sdk", version.ref = "dreamspaceAdsSdk" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
